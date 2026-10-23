@@ -1,0 +1,19 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Large model checkpoints (GitHub has a 100MB file limit)
+checkpoints/
+*.pt
+*.pth
+*.bin
+
+# OS files
+.DS_Store
+Thumbs.db
